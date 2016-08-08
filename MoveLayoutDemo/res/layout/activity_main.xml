@@ -1,0 +1,44 @@
+<com.zjl.customview.MoveLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ml_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   <ImageView
+       android:id="@+id/iv_active"
+       android:layout_width="68dp"
+       android:layout_height="68dp"
+       android:layout_gravity="bottom|right"
+       android:background="#ffee00"
+       android:scaleType="fitXY"
+       android:src="@drawable/ic_launcher" />
+
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="80dp"
+       android:layout_height="50dp"
+       android:layout_gravity="right"
+       android:layout_marginRight="50dp"
+       android:layout_marginTop="50dp"
+       android:text="100%" />
+
+   <TextView
+       android:id="@+id/tv_x"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="X" />
+
+   <TextView
+       android:id="@+id/tv_y"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Y" />
+
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal|bottom"
+       android:text="0%" />
+
+</com.zjl.customview.MoveLayout>
